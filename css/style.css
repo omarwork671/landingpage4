@@ -1,0 +1,610 @@
+@font-face{
+    font-family: ar-font;
+    src: url(../fonts/Cairo-Regular.ttf);
+}
+
+body{
+    direction: rtl;
+    font-family: ar-font;
+}
+
+.banner {
+    background-image: url(../images/bg-1main.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    z-index: -3;
+    position: relative;
+}
+
+.banner .overlay{
+    background-color: rgba(239, 71, 58, 0.8);
+    z-index: -2;
+}
+
+.banner .overlay .images{
+    position: absolute;
+    bottom: -250px;
+    right: 0;
+}
+
+.banner .overlay .images img{
+    max-width: 100%;
+}
+
+
+.banner .overlay .app-icon img{
+    margin-top: 200px;
+    margin-bottom: 50px;
+}
+
+.banner .overlay .banner-text h1{
+    font-size: 30px;
+    color: #ffff;
+    margin-bottom: 30px;
+}
+    
+.banner .overlay .banner-text p{
+font-size: 18px;
+line-height: 32px;
+color: #fff;
+margin-bottom: 40px;
+
+}
+
+
+.banner .overlay  button{
+    background-color: #fafafa;
+    margin: 40px 0;
+    width: 250px;
+}
+
+
+
+
+.banner .overlay  button img {
+    width: 50px;
+    vertical-align: sub;
+}
+
+.banner .overlay  button i{
+    font-size: 50px;
+
+}
+
+.banner .overlay  button p{
+    font-size: 14px;
+    font-family: ar-font;
+    color: #090909 !important;
+    line-height: 25px;
+    display:  inline-block;
+}
+
+.banner .overlay  button p span{
+    font-size: 18px;
+
+}
+
+.banner .overlay  button:last-child{
+    margin-right: 20px;
+}
+
+
+/*features**/
+
+section.features{
+    background-color: #fff;
+    padding: 80px 0;
+}
+
+section.features .feature{
+    margin-top: 90px;
+}
+
+section.features .feature .media{
+    margin-bottom: 70px;
+}
+
+section.features .feature .media h5{
+    font-size: 24px;
+    color: #080808;
+    margin-bottom: 12px;
+}
+
+
+section.features .feature .media p{
+    font-size: 15px;
+    line-height: 20px;
+    color: #757474;
+}
+
+
+section.features .feature .media i{
+    width: 71px;
+    height: 70px;
+    background-color: #ef473a;
+    display: block;
+    color: #fff;
+    line-height: 70px;
+    border-radius: 2px;
+    text-align: center;
+
+}
+
+section.features .mobile-img img{
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+}
+
+
+/*****option*********/
+
+section.option {
+    background-color: #f9f8f8;
+    z-index: -2;
+    padding: 90px 0 50px;
+}
+
+section.option .mobile-images{
+    z-index: -1;
+}
+
+section.option .mobile-images img{
+    width: 90%;
+
+}
+
+section.option .media-container{
+    margin-top: 70px;
+    margin-right: 30px;
+}
+
+section.option .media-container .media{
+    margin-top: 50px;
+}
+
+section.option .media-container  img{
+    margin-left: 35px;
+}
+
+section.option .media-container .media h3{
+    font-size: 24px;
+    line-height: 40px;
+    color: #141414;
+}
+
+section.option .media-container .media p{
+    font-size: 15px;
+    line-height: 20px;
+    color: #757474;
+}
+
+/**معرض االصور*/
+
+section.slider{
+    padding: 80px 0;
+    background-color: #ffff;   
+}
+
+section.slider .title{
+    margin-bottom: 60px;
+}
+
+section.slider .title h3{
+    font-size: 36px;
+}
+
+section.slider .carousel-inner{
+    width: 60%;
+    margin: 0 auto;
+}
+
+section.slider .carousel-indicators{
+    padding: 0;
+    bottom: -60px;
+}
+
+section.slider .carousel-indicators li {
+    transition: 0.3s all ease;
+}
+
+section.slider .carousel-indicators li {
+    max-width: 20px;
+    height: 20px;
+    border: 1px solid #ef473a; /* هذا فقط من أجل إضافة إطار باللون البرتقالي */
+    border-radius: 50%;
+}
+
+
+
+section.slider .carousel-indicators li:hover{
+    background-color: #ef473a;
+
+}
+
+section.slider .carousel-indicators li.active{
+    background-color: #ef473a;
+}
+
+
+section.slider .carousel-control-next , section.slider .carousel-control-prev{
+    border:1px solid #ef473a ;
+    width: 70px;
+    height: 70px;
+    color:#ef473a ;
+    opacity: 1;
+    border-radius: 50%;
+    margin-top: 100px;
+} 
+
+section.slider .carousel-control-next i , section.slider .carousel-control-prev i{
+    font-size: 25px;
+}
+
+
+/****الاسئلة الاكثر شيوعا***/
+
+section.questions {
+    background-image: url(../images/bg-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+section.questions .overlay{
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 70px 0 80px;
+}
+
+section.questions .overlay .title{
+    margin-bottom: 60px;
+}
+
+section.questions .overlay .title h3{
+    font-size: 30px;
+    color: #fff;
+}
+
+section.questions .overlay .card{
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 25px;
+
+}
+
+section.questions .overlay .card .card-header{
+    border-bottom: 0;
+    background-color: transparent;
+    color: #ffff;
+
+}
+
+section.questions .overlay .card .card-header h5 a{
+    font-size: 18px;
+    color: #ffff !important;
+    display: block;
+    text-decoration: none;
+}
+
+section.questions .overlay .card .card-block p{
+    color: #fff;
+}
+
+section.questions .overlay .card .card-header h5 a[aria-expanded="false"] i:before{
+    content: "\f107";
+}
+
+section.questions .overlay .card .card-header h5 a:hover{
+    text-decoration: none;
+}
+
+/********footer************/
+
+footer#footer{
+    background-color: #232323;
+    
+}
+
+footer#footer .footer  .widget .title h4{
+    font-size: 24px;
+    color: #f4f8fb;
+    line-height: 80px;
+
+}
+
+footer#footer .footer  .widget .title{
+    border-bottom: 2px solid #272727;
+    margin-bottom: 35px;
+    position: relative;
+    
+}
+
+footer#footer .footer  .widget .title::after{
+    content: "";
+    width: 90px;
+    height: 2px ;
+    background-color: #ef473a;
+    position: absolute;
+    bottom: -2px;
+    right: 0;
+    display: inline-block;
+}
+
+
+footer#footer .footer  .widget .content p{
+    font-size: 18px;
+    line-height: 40px;
+    color: #757474;
+
+}
+
+footer#footer .footer  .widget ul{
+    padding: 0 !important;
+    margin: 0 !important;
+    margin-top: 50px !important;   
+}
+
+footer#footer .footer  .widget .social-links  li a{
+    width: 40px !important;
+    height: 40px;
+    display: block;
+    border-radius: 50%;
+    background-color: #353638;
+    line-height: 40px;
+    color: #fff;
+    text-align: center;
+    transition: 0.1s all ease-in;
+}
+
+footer#footer .footer  .widget .social-links  li a:hover{
+    background-color: #ef473a;
+}
+
+footer#footer .footer  .widget  ul li{
+    margin-right: 5px;
+
+}
+
+/* أخر التغريدات*/
+footer#footer .footer  .widget .content .twittes{
+    padding: 0;
+}
+
+footer#footer .footer  .widget .content .twittes li{
+    color:#757474 ;
+    font-size: 15px;
+    line-height: 24px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-bottom: 2px solid #2a2929;
+    list-style: none;
+    position: relative;
+    text-indent: 20px;
+    padding-right: 5px;
+    padding-bottom: 20px;
+}
+
+footer#footer .footer  .widget .content .twittes li::before{
+    content: "\f099";
+    font-family: fontAwesome;
+    position: absolute;
+    top: 5px;
+    right: -15px;
+    line-height: 1rem;
+    color: #ef473a;
+}
+
+footer#footer .footer  .widget .content .twittes li:last-of-type{
+    border-bottom: none;
+    margin-bottom: 0;
+}
+
+/* القائمة البريدية */
+
+
+footer#footer .footer  .widget .content form {
+
+}
+
+footer#footer .footer  .widget .content form input{
+    font-size: 14px;
+    color: #c6c6c6;
+    background-color:#2c2b2b ;
+    line-height: 25px;
+    border-radius: 1px;
+    font-family: ar-font;
+    border-color: transparent;
+
+
+}
+
+footer#footer .footer  .widget .content form button{
+    margin-top: 15px;
+    color: #fff;
+    background-color: #ef473a;
+    border-radius: 50px;
+    font-size: 14px;
+    font-family: ar-font;
+    border-color: transparent;
+
+}
+
+/*جميع الحقوق*/
+
+
+footer#footer .copyright {
+    border-top: 2px solid #262626;
+
+}
+
+footer#footer .copyright p {
+    font-size: 15px;
+    line-height: 70px;
+    color: #565656;
+    text-align: center;
+    margin-bottom: 0 !important;
+}
+
+.error{
+    color: #ef473a;
+}
+
+
+
+/*************** media query ******************/
+
+@media (max-width: 990px) and (min-width: 768px){
+    .banner .overlay  button:last-child{
+        margin-right: 0px;
+    }
+
+    .banner .overlay  button{
+        width: 250px;
+        margin: 0 0 40px;
+    }
+
+    .banner .overlay .app-icon img{
+        margin-top: 150px;
+        margin-bottom: 50px;
+        margin-right: 18px !important;
+    }
+
+    .banner .overlay .banner-text{
+        margin-right: 20px;
+    }
+
+    section.features .feature {
+        margin-top: -5px;
+    }
+
+    section.features .feature .media i{
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+    }
+
+    section.features{
+        padding: 100px 0 30px;
+    }
+
+    section.features .mobile-img img{
+        width: 85%;
+    }
+
+    section.option .mobile-images img {
+        width: 105%;
+    }
+
+    section.option .media-container .media{
+        margin-top: 30px;
+    }
+
+    section.option{
+        padding: 40px 0 15px;
+    }
+
+    .carousel-control-next, .carousel-control-prev{
+        top: -40px;
+    }
+
+    footer#footer .footer .widget .social-links li a{
+        width: 34px !important;
+        line-height: 34px;
+        height: 34px;
+    }
+}
+
+@media (max-width: 776px) and (min-width: 576px){
+    .banner .overlay .images{
+        bottom: -500px;
+
+    }
+
+    .banner .overlay .app-icon img{
+        margin-top: 50px !important;
+        margin-bottom: 30px;
+    }
+
+    .banner .overlay .banner-text {
+        margin-bottom: 350px;
+    }
+
+    .banner .overlay .banner-text button{
+        padding: .5rem 1rem;
+        line-height: 40px;
+    }
+
+    .banner .overlay  button img {
+        width: 40px;
+    }
+    
+    .banner .overlay  button i{
+        font-size: 40px;
+    
+    }
+
+    .banner .overlay  button:last-child{
+        margin-right: 5px;
+        
+    }
+
+    .banner .overlay  button{
+        width: 250px;
+        margin: 0 0 40px;
+    }
+
+    .banner .overlay .images img{
+        display: none;
+    }
+
+    .banner .overlay{
+        height: 500px;
+    }
+
+    .carousel-control-next, .carousel-control-prev{
+        top: -40px;
+    }
+
+}
+
+@media (max-width: 575px){
+    .banner .overlay .images{
+        bottom: -500px;
+        right: 5% !important;
+        left: 5%;
+    }
+
+    .banner .overlay .banner-text {
+        margin-bottom: 350px;
+        text-align: center;
+    }
+
+    .banner .overlay .app-icon img{
+        margin: 50px auto 30px;
+    }
+
+    .banner .overlay  button:last-child{
+        margin-right: 5px;
+        
+    }
+
+    .banner .overlay  button{
+        width: 250px;
+        margin: 0 0 40px;
+    }
+
+    .banner .overlay .images img{
+        display: none;
+    }
+
+    .banner .overlay{
+        height: 800px;
+    }
+
+    .carousel-control-next, .carousel-control-prev{
+        top: -40px;
+    }
+}
